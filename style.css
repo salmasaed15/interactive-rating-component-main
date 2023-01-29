@@ -1,0 +1,116 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Kumbh+Sans:wght@400;600&family=Overpass:wght@400;700&family=Poppins:wght@100&family=Space+Mono&display=swap'); 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: hsl(216, 12%, 8%) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container, .container-2{
+    font-family: 'Overpass', sans-serif;
+    background-color:hsl(213, 19%, 18%) ;
+    border-radius: 15px;
+    width: 350px;
+    padding: 20px;
+    margin: 150px;
+    height: 400px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%, 0.387);
+    color:hsl(25, 97%, 53%) ;
+    text-align: center;
+    position:relative;
+}
+.icon img{
+    position: absolute;
+    top:11px;
+    left: 12px;
+}
+h1{
+    color: #fff;
+    margin-top: 25px;
+}
+p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+    color:  hsl(217, 12%, 63%);
+}
+ul{
+    margin :25px 0 25px 0;
+}
+ul li{
+display: inline-block;
+width: 40px;
+height: 40px;
+text-align: center;
+border-radius: 50%;
+background-color: hsla(216, 12%, 54%, 0.387);
+color: hsl(0, 0%, 100%);
+padding: 10px;
+margin-right: 18px;
+cursor: pointer;
+transition: all .5s ease;
+}
+ul li:hover{
+    color:#fff ;
+    background-color:hsl(25, 97%, 53%);
+}
+/* ul li::nth-child(2){
+    color:#fff ;
+    background-color:hsl(217, 12%, 63%)
+} */
+button{
+    color:hsl(25, 97%, 53%) ;
+    text-align: center;
+    width: 300px;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    letter-spacing: 3px;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+button:hover{
+    color:#fff ;
+    background-color:hsl(25, 97%, 53%);
+}
+
+/*thanks card*/
+
+.container-2{
+    text-align: center;
+    /* transform: rotateY(-180deg); */
+    display: none;
+}
+
+.container-2 h1, p ,.img-thank{
+    padding-bottom: 15px;
+}
+.img-thank{
+    padding: 20px;
+}
+h5{
+    background-color: hsla(216, 12%, 54%, 0.387);
+    width: 200px;
+    margin: auto;
+    padding: 5px 0;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 100;
+}
